@@ -1,0 +1,10 @@
+To run this API script, Python will need to have the "requests" module available to it.
+http://docs.python-requests.org/en/master/
+
+For information on installing the "requests" module: 
+http://docs.python-requests.org/en/master/user/install/#pip-install-requests
+
+In addition to the above module, the script uses the "json" module
+A similar pip command can be used to install the JSON
+
+If you are not sure how to install PIP take a look at this link: http://lmgtfy.com/?q=install+pip
