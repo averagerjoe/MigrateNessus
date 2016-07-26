@@ -1,6 +1,10 @@
 # MigrateNessus
-This repository has API scripts used to migrate a Nessus 6 installation.
+migrateNessus.py is an API script used to migrate nessus scans and policies from one Nessus 6 host to another.
 
-So far only a scan migrate in Nessus format is possible. More to come.
+To be clear, this does not transfer over user accounts.
+Credentials and audit files do not transfer the policies.
+Likewise, schedules do not transfer over with the scan results.
 
-There are a number of dependencies needed to run the python script. Need to add those as well.
+The user will still need to set up all the Advanced settings in Nessus as those do not transfer over either.
+
+As of right now, this script only transfers Nessus scans in .Nessus format.
