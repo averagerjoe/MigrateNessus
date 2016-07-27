@@ -1,3 +1,11 @@
+For RHEL6/CentOS6 run the following to install the appropriate dependencies:
+yum install epel-release;
+yum install python-pip;
+pip install --upgrade pip;
+pip install requests;
+pip install json;
+
+If you are using other operating systems, read the following information:
 To run this API script, Python will need to have the "requests" module available to it.
 http://docs.python-requests.org/en/master/
 
@@ -5,6 +13,6 @@ For information on installing the "requests" module:
 http://docs.python-requests.org/en/master/user/install/#pip-install-requests
 
 In addition to the above module, the script uses the "json" module
-A similar pip command can be used to install the JSON
+A similar pip command can be used to install json
 
 If you are not sure how to install PIP take a look at this link: http://lmgtfy.com/?q=install+pip
